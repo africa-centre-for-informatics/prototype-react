@@ -1,0 +1,169 @@
+.meeting-list {
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.meeting-list > li {
+  margin-bottom: 27px;
+  border-top: 1px solid #e7eaec;
+  border-bottom: 1px solid #e7eaec;
+}
+
+.meeting-list > li:hover {
+  background-color: #f5f5f5;
+}
+
+.time {
+  text-align: center;
+  text-transform: uppercase;
+  width: 120px;
+  float: left;
+  padding: 11px;
+  margin: 0px;
+}
+
+.date {
+  display: block;
+  font-size: 40pt;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.day {
+  display: block;
+  font-size: 21pt;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.info-element {
+  border-left: 3px solid #1c84c6;
+  height: 120px;
+}
+
+.info {
+  padding-top: 5px;
+  overflow: hidden;
+}
+
+.rsvp {
+  overflow: hidden;
+  padding: 0px 35px 10px 35px;
+}
+
+.info > .title {
+  font-size: 17pt;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.info > .desc,
+.info > .duration {
+  font-size: 13pt;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.info > .duration {
+  font-size: 12px!important;
+}
+
+.info > .title, 
+.info > .desc,
+.info > .duration {
+  padding: 4px 18px;
+}
+
+.be-logo {
+  width: 100%;
+}
+
+.sidebar-fixed {
+  height: 100%!important;
+  position: fixed!important;
+  z-index: 1!important;
+}
+
+.double-border {
+  border-left: 3px solid #1c84c6;
+  border-right: 3px solid #1c84c6;
+  height: 120px;
+}
+
+.profile-pic {
+  height: inherit;
+  float: left;
+  padding-left: 2px;
+}
+
+.profile-pic > img {
+  height: inherit;
+}
+
+.profile-status {
+  position: relative;
+  bottom: 85px;
+  margin-right: 40px;
+}
+
+.profile-status > ul > li {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.profile-status > ul > li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.profile-status > ul > li > i {
+  color: #1c84c6;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #54fc12;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pad-td {
+  padding: 17px!important;
+}
+
+.mission-title {
+  margin-bottom: 50px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+  display: inline-block;
+}
+
+.no-width {
+  display: none;
+}
+
+#sliderTwo {
+  float: right;
+}
+
+.current-user-icon {
+  height: 46px;
+  margin: -10px;
+  border-radius: 25px;
+}
+
+.current-user-name {
+  margin-left: 25px;
+}
+
+.top-60 {
+  top: 60px;
+}
