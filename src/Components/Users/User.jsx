@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const User = ({ user }) => (
-  <tr id="pollSlider-button" style={{ cursor: 'pointer' }}>
+const User = ({ user, showUserInfo }) => (
+  <tr id="pollSlider-button" style={{ cursor: 'pointer' }} onClick={showUserInfo}>
     <td className="client-avatar pad-td">
       <img alt="user-pic" src={user.pic} />
     </td>
@@ -11,18 +11,14 @@ const User = ({ user }) => (
     </td>
 
     <td className="text-right pad-td">
-      <select>
-        <option value="">Member</option>
-        <option value="">Administrator</option>
-        <option value="">Creator</option>
-        <option value="">Not A Member</option>
-      </select>
+      <span class={'dot ' + user.status}></span> {user.status}
     </td>
   </tr>
 );
 
 User.propTypes = {
-  user: PropTypes.object
+  user: PropTypes.object,
+  showUserInfo: PropTypes.func
 };
 
 export default User;

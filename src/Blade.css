@@ -1,0 +1,16 @@
+.parent {
+  width: 100%;
+  transition: width 1s;
+}
+
+.children {
+  width: 50%;
+}
+
+.blades {
+  height: 100%;
+}
+
+.blade {
+    border-right: 1px solid #DDDDDD;
+}

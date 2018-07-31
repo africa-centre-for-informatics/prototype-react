@@ -6,7 +6,7 @@ const MeetingPanel = () => (
     <div className="title-bar">
       <h3 className="title ">Upcoming Meetings</h3>
     </div>
-    <button class="btn btn-primary btn-outline edit-button" type="button"><i class="fa fa-paste"></i> Edit</button>
+    <button className="btn btn-primary btn-outline edit-button" type="button"><i className="fa fa-paste"></i> Edit</button>
     <div className="list-content" role="complementary">
       <div className="meeting-panel-item two-row-layout item-padding" role="button">
         <div className="meeting-panel-row">
